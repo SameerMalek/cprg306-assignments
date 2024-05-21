@@ -1,5 +1,4 @@
 .studentInfo {
-    /* font-family: Arial, sans-serif; */
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     padding: 20px;
@@ -9,7 +8,6 @@
   }
   
   .studentInfo span {
-    /* font-size: 18px; */
     color: #555;
     font-weight: bold;
     margin-bottom: 10px;
@@ -34,5 +32,6 @@
   
   .repo a:hover {
     text-decoration: underline;
+    color:rgb(87, 224, 87);
   }
   
