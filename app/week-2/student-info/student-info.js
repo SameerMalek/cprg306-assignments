@@ -8,7 +8,7 @@ export default function StudentInfo() {
       <span>Name: <em>Mohammad Sameer Malek</em></span>
       <div className="repo">
         <span>My GitHub Repository:</span><br />
-        <Link href="https://github.com/SameerMalek/Node-Js-Server">Click Here</Link>
+        <Link href="https://github.com/SameerMalek/cprg306-assignments">Click Here</Link>
       </div>
     </div>
   );
