@@ -79,7 +79,7 @@ export default function ItemList() {
   return (
     <ul className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {items.map((item, index) => (
-        <li key={index} className="bg-gray-100 border border-gray-300 rounded-lg p-4">
+        <li key={index} className="bg-gray-100 border border-gray-300 rounded-lg p-4 hover:border-[rgb(87,224,87)] hover:bg-[rgb(87,224,87)]">
         <Item
           key={index}
           name={item.name}
