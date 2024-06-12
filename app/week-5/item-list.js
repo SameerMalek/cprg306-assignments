@@ -61,9 +61,9 @@ const ItemList = () => {
       {sortBy === 'group' ? (
         <div>
           {Object.keys(groupedItems).sort().map((category) => (
-            <div key={category} className="mb-4">
+            <div key={category} className="mb-4 ml-5">
               <h2 className="text-lg font-bold capitalize">{category}</h2>
-              <ul className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <ul className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
                 {groupedItems[category].map((item) => (
                   <li
                     key={item.id}
