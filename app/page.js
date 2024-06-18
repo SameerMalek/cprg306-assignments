@@ -19,6 +19,9 @@ export default function Home() {
         <div className="no-underline text-[#0070f3] text-lg transition-colors duration-[0.3s] hover:underline hover:text-[rgb(87,224,87)]">
           <Link href="/week-5">Assignment-5</Link>
         </div>
+        <div className="no-underline text-[#0070f3] text-lg transition-colors duration-[0.3s] hover:underline hover:text-[rgb(87,224,87)]">
+          <Link href="/week-6">Assignment-6</Link>
+        </div>
       </div>
     </div>
   );
